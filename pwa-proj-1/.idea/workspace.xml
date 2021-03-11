@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="01c2de2f-4112-49ea-94b8-b3e961553fe9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/scss/styles.scss" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1pZdZRJjzOlLiy4ZpE62NvQ9Jmo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01c2de2f-4112-49ea-94b8-b3e961553fe9" name="Default Changelist" comment="" />
+      <created>1615394605520</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615394605520</updated>
+      <workItem from="1615394609182" duration="155000" />
+      <workItem from="1615394799361" duration="1086000" />
+      <workItem from="1615402196715" duration="60000" />
+      <workItem from="1615402309855" duration="1407000" />
+      <workItem from="1615403785614" duration="2739000" />
+      <workItem from="1615456968863" duration="963000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-755" y="325" width="566" height="479" key="#File_Watchers" timestamp="1615403300782">
+      <screen x="-1280" y="0" width="1280" height="984" />
+    </state>
+    <state x="-755" y="325" width="566" height="479" key="#File_Watchers/0.0.1920.1040/-1280.0.1280.984@-1280.0.1280.984" timestamp="1615403300782" />
+    <state x="-810" y="253" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1615404746087">
+      <screen x="-1280" y="0" width="1280" height="984" />
+    </state>
+    <state x="-810" y="253" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/-1280.0.1280.984@-1280.0.1280.984" timestamp="1615404746087" />
+    <state x="-910" y="238" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615403257261">
+      <screen x="-1280" y="0" width="1280" height="984" />
+    </state>
+    <state x="-910" y="238" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1280.0.1280.984@-1280.0.1280.984" timestamp="1615403257261" />
+    <state x="-970" y="305" width="763" height="679" key="EditFileWatcherDialog" timestamp="1615404822591">
+      <screen x="-1280" y="0" width="1280" height="984" />
+    </state>
+    <state x="-970" y="305" width="763" height="679" key="EditFileWatcherDialog/0.0.1920.1040/-1280.0.1280.984@-1280.0.1280.984" timestamp="1615404822591" />
+    <state x="-790" y="462" key="FileChooserDialogImpl" timestamp="1615403976274">
+      <screen x="-1280" y="0" width="1280" height="984" />
+    </state>
+    <state x="-790" y="462" key="FileChooserDialogImpl/0.0.1920.1040/-1280.0.1280.984@-1280.0.1280.984" timestamp="1615403976274" />
+    <state x="-1109" y="267" width="998" height="708" key="SettingsEditor" timestamp="1615457381014">
+      <screen x="-1280" y="0" width="1280" height="984" />
+    </state>
+    <state x="-1109" y="267" width="998" height="708" key="SettingsEditor/0.0.1920.1040/-1280.0.1280.984@-1280.0.1280.984" timestamp="1615457381014" />
+    <state x="264" y="253" key="SettingsEditor/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1615394768316" />
+    <state x="-798" y="406" key="scopes" timestamp="1615403081847">
+      <screen x="-1280" y="0" width="1280" height="984" />
+    </state>
+    <state x="-798" y="406" key="scopes/0.0.1920.1040/-1280.0.1280.984@-1280.0.1280.984" timestamp="1615403081847" />
+  </component>
+</project>
