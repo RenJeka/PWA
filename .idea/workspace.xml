@@ -1,13 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1752fce9-c17c-43e6-8d59-6bc0db55681c" name="Default Changelist" comment="" />
+    <list default="true" id="1752fce9-c17c-43e6-8d59-6bc0db55681c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pwa-proj-1/icons/rj-icon-144-144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwa-proj-1/icons/rj-icon-192-192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwa-proj-1/icons/rj-icon-48-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwa-proj-1/icons/rj-icon-512-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwa-proj-1/icons/rj-icon-72-72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwa-proj-1/icons/rj-icon-96-96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwa-proj-1/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa-proj-1/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-proj-1/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa-proj-1/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-proj-1/css/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa-proj-1/index..html" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-proj-1/index..html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa-proj-1/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-proj-1/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa-proj-1/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-proj-1/scss/styles.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1pbi5cIJdPUIyHsIpInvpSPPQv2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -16,6 +59,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -26,10 +71,49 @@
       <option name="presentableId" value="Default" />
       <updated>1615458013132</updated>
       <workItem from="1615458016724" duration="18000" />
+      <workItem from="1615458105485" duration="2268000" />
+      <workItem from="1615462001711" duration="6374000" />
+      <workItem from="1615481786383" duration="1570000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="715" y="343" key="#Notifications" timestamp="1615462022665">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="715" y="343" key="#Notifications/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1615462022665" />
+    <state x="714" y="389" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1615461957385">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="714" y="389" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1615461957385" />
+    <state x="-861" y="282" key="EditFileWatcherDialog" timestamp="1615463208599">
+      <screen x="-1280" y="0" width="1280" height="984" />
+    </state>
+    <state x="-861" y="282" key="EditFileWatcherDialog/0.0.1920.1040/-1280.0.1280.984@-1280.0.1280.984" timestamp="1615463208599" />
+    <state x="629" y="298" key="EditFileWatcherDialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1615462045911" />
+    <state x="347" y="261" width="440" height="762" key="FileChooserDialogImpl" timestamp="1615461953260">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="347" y="261" width="440" height="762" key="FileChooserDialogImpl/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1615461953260" />
+    <state x="-1120" y="153" key="SettingsEditor" timestamp="1615484041219">
+      <screen x="-1280" y="0" width="1280" height="984" />
+    </state>
+    <state x="-1120" y="153" key="SettingsEditor/0.0.1920.1040/-1280.0.1280.984@-1280.0.1280.984" timestamp="1615484041219" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1615461231499" />
   </component>
 </project>

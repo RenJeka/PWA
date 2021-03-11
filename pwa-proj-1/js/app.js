@@ -1,4 +1,14 @@
 window.addEventListener('load', async () => {
+    // Проверка, поддерживает ли браузер ServiceWorker
+    if ('serviceWorker' in navigator) {
+        // Если ServiceWorker поддерживается браузером — тогда регистрируем его (віводим ошибки в случае ошибки)
+        try {
+            const registerInfo = await navigator.serviceWorker.register('/service-worker.js');
+            console.log('SW register success', registerInfo);
+        } catch (e) {
+            console.error('SW register fail')
+        }
+    }
     await loadPosts();
 });
 
@@ -10,14 +20,16 @@ async function loadPosts() {
     container.innerHTML = data.map(toCard).join('\n');
 }
 
-function toCard(posts) {
+function toCard(post) {
+
     return `
         <div class="card">
             <div class="card-title">
-            
-</div>
+                ${post.title}
+            </div>
+            <div class="card-body">
+                ${post.body}
+            </div>   
         </div>
     `
-
-
 }

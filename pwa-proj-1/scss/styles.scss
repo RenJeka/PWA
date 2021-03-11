@@ -43,7 +43,7 @@ header h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: gray;
+  background-color: #808080;
   font-family: Arial;
   text-transform: uppercase;
   font-size: 5em;
@@ -51,7 +51,37 @@ header h1 {
 }
 
 .container{
-  padding-top: 3em;
-  height: 100%;
+  min-height: 100%;
   background-color: bisque;
+}
+
+.posts{
+    padding: 3em 0;
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 100%;
+    .card {
+        background-color: white;
+        padding: 10px;
+        margin: 10px 0;
+        box-shadow: 0 0 10px 1px #727272;
+        &-title{
+            text-align: center;
+            text-transform: capitalize;
+            font-size: 3em;
+            font-family: cursive;
+        }
+        &-body{
+            font-size: 2em;
+            margin-top: 15px;
+            
+            &::first-letter{
+                text-transform: uppercase;
+            }
+            &::after{
+                content: '.';
+                margin-left: -5px;
+            }
+        }
+    }
 }
