@@ -49,19 +49,30 @@ self.addEventListener('fetch', (event) => {
   // Логика выбора стратегии кеширования
   // Если URL запроса совпадает с нашим текущим URL (URL сайта) — значит мы хотим получить статические файлы (html, css, картинки...и.т.д) — используем стратегию "cacheFirst"
   // Если URL запроса не совпадает с текущим URL — значит это запрос на сторонний ресурс,— используем стратегию "networkFirst"
+  // console.log('Fetch event: ', event);
+
   const {request} = event;
   const url = new URL(request.url)
+
   if (url.origin === location.origin) {
     event.respondWith(cacheFirst(request));
   } else {
     event.respondWith(networkFirst(request));
   }
+
 })
 
 // Стратегия "cacheFirst" ( при запросе на данные — проверка кеша в первую очередь. Если в кеше будут находится нужные данные — они и будут использоваться)
 async function cacheFirst(request) {
   // Мы сравниваем готовой функцией наш текущий запрос с тем, что есть в кеше
   const cached = await caches.match(request);
+
+  if (!cached) {
+    console.log('request url:', request.url);
+    console.log('cacheFirst cached : ', cached);
+    console.log('fetch(response) ', await fetch(request));
+  }
+
 
   // Если в кеше есть данный запрос — мы его возвращаем. Если нет, делаем новый запрос (fetch) и возвращаем полученные данные (от "fetch")
   return cached ?? await fetch(request);
