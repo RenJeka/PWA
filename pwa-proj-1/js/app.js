@@ -4,9 +4,9 @@ window.addEventListener('load', async () => {
         // Если ServiceWorker поддерживается браузером — тогда регистрируем его (віводим ошибки в случае ошибки)
         try {
             const registerInfo = await navigator.serviceWorker.register('/service-worker.js');
-            console.log('SW register success', registerInfo);
+            // console.log('SW register success', registerInfo);
         } catch (e) {
-            console.error('SW register fail')
+            // console.error('SW register fail')
         }
     }
     await loadPosts();
