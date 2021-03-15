@@ -85,9 +85,34 @@ header h1 {
         font-size: 3em;
     }
 
+    .btnCalc {
+        display: block;
+        padding: 0.4em 1.5em;
+        margin: 0 auto 50px auto;
+        border-radius: 0.2em;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        font-size: 4em;
+        color: #6c6b6b;
+        background-color: #CCCCCC;
+        box-shadow: inset 0 -0.6em 1em -0.35em rgb(0 0 0 / 17%), inset 0 0.6em 2em -0.3em rgb(255 255 255 / 15%), inset 0 0 0em 0.05em rgb(255 255 255 / 12%);
+        text-align: center;
+        position: relative;
+
+        &:active {
+            box-shadow: inset 0 0.6em 2em -0.3em rgb(0 0 0 / 15%), inset 0 0 0em 0.05em rgb(255 255 255 / 12%)
+        }
+    }
     .result{
         text-align: center;
         font-size: 6em;
         text-transform: uppercase;
+        &::after{
+            text-transform: none;
+            content: " (grn/Kg)";
+            font-size: 0.65em;
+        }
     }
 }

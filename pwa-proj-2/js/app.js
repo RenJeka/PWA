@@ -15,6 +15,7 @@ function calculator(){
   const priceInp = document.querySelector('#price');
   const weightInp = document.querySelector('#weight');
   const resultText = document.querySelector('#result');
+  const btnCalc = document.querySelector('#btnCalc');
 
   inputs.forEach((input) => {
     if (
@@ -26,9 +27,11 @@ function calculator(){
       input.type ==='password' ||
       input.type ==='search'
     ) {
-      input.addEventListener('change', calculate);
+      input.addEventListener('input', calculate);
     }
   })
+
+  btnCalc.addEventListener('click', calculate)
 
   function calculate() {
     let result;
