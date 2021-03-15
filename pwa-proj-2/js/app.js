@@ -15,7 +15,6 @@ function calculator(){
   const priceInp = document.querySelector('#price');
   const weightInp = document.querySelector('#weight');
   const resultText = document.querySelector('#result');
-  const btnCalc = document.querySelector('#btnCalc');
   const validateErrors = document.querySelector('#validateErrors');
 
   inputs.forEach((input) => {
@@ -31,8 +30,6 @@ function calculator(){
       input.addEventListener('input', calculate);
     }
   })
-
-  btnCalc.addEventListener('click', calculate)
 
   function calculate() {
     let result;
