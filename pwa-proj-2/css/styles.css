@@ -136,6 +136,12 @@ header h1 {
 .interface .btnCalc:active {
   box-shadow: inset 0 0.6em 2em -0.3em rgba(0, 0, 0, 0.15), inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
 }
+.interface #validateErrors {
+  margin: 15px 0;
+  font-size: 2em;
+  text-align: center;
+  color: red;
+}
 .interface .result {
   text-align: center;
   font-size: 6em;

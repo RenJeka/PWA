@@ -1,5 +1,5 @@
-const staticCacheName = 'static-app-v5';
-const dynamicCacheName = 'dynamic-app-v2';
+const staticCacheName = 'static-app-v7';
+const dynamicCacheName = 'dynamic-app-v4';
 
 // Список всех статических файлов, которые мы будем кешировать
 const assetUrls = [

@@ -105,6 +105,12 @@ header h1 {
             box-shadow: inset 0 0.6em 2em -0.3em rgb(0 0 0 / 15%), inset 0 0 0em 0.05em rgb(255 255 255 / 12%)
         }
     }
+    #validateErrors{
+        margin: 15px 0;
+        font-size: 2em;
+        text-align: center;
+        color: red;
+    }
     .result{
         text-align: center;
         font-size: 6em;
