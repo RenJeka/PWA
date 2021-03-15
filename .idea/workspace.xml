@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1752fce9-c17c-43e6-8d59-6bc0db55681c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pwa-proj-1/offline.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa-proj-1/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-proj-1/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwa-proj-1/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/pwa-proj-1/service-worker.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +50,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Programming\PWA" />
+      <recent name="E:\Programming\PWA\pwa-proj-1" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,6 +69,8 @@
       <workItem from="1615462001711" duration="6374000" />
       <workItem from="1615481786383" duration="5425000" />
       <workItem from="1615567897304" duration="33000" />
+      <workItem from="1615621203365" duration="11569000" />
+      <workItem from="1615801328830" duration="11000" />
     </task>
     <servers />
   </component>
@@ -98,15 +103,20 @@
     </state>
     <state x="-861" y="282" key="EditFileWatcherDialog/0.0.1920.1040/-1280.0.1280.984@-1280.0.1280.984" timestamp="1615463208599" />
     <state x="629" y="298" key="EditFileWatcherDialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1615462045911" />
-    <state x="347" y="261" width="440" height="762" key="FileChooserDialogImpl" timestamp="1615461953260">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1049" y="249" width="313" height="721" key="FileChooserDialogImpl" timestamp="1615623092908">
+      <screen x="-1280" y="2" width="1280" height="984" />
     </state>
     <state x="347" y="261" width="440" height="762" key="FileChooserDialogImpl/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1615461953260" />
+    <state x="-1049" y="249" width="313" height="721" key="FileChooserDialogImpl/0.0.1920.1040/-1280.2.1280.984@-1280.2.1280.984" timestamp="1615623092908" />
     <state x="-1120" y="153" key="SettingsEditor" timestamp="1615485191165">
       <screen x="-1280" y="0" width="1280" height="984" />
     </state>
     <state x="-1120" y="153" key="SettingsEditor/0.0.1920.1040/-1280.0.1280.984@-1280.0.1280.984" timestamp="1615485191165" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1615461231499" />
+    <state x="95" y="71" width="906" height="970" key="dock-window-1" timestamp="1615636383274">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="95" y="71" width="906" height="970" key="dock-window-1/0.0.1920.1040/-1280.2.1280.984@0.0.1920.1040" timestamp="1615636383274" />
     <state x="-977" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1615485430602">
       <screen x="-1280" y="0" width="1280" height="984" />
     </state>

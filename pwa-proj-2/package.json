@@ -1,0 +1,24 @@
+{
+  "name": "pwa",
+  "version": "1.0.0",
+  "description": "pwa projects",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server . --port=3001",
+    "serve": "npx live-server . --port=3001",
+    "sass": "sass --watch scss/styles.scss css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenJeka/PWA.git"
+  },
+  "keywords": [
+    "PWA"
+  ],
+  "author": "RenJeka (renjeka@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RenJeka/PWA/issues"
+  },
+  "homepage": "https://github.com/RenJeka/PWA#readme"
+}
