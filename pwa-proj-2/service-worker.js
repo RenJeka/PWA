@@ -1,5 +1,5 @@
-const staticCacheName = 'static-app-v7';
-const dynamicCacheName = 'dynamic-app-v4';
+const staticCacheName = 'static-app-v10';
+const dynamicCacheName = 'dynamic-app-v7';
 
 // Список всех статических файлов, которые мы будем кешировать
 const assetUrls = [
@@ -52,7 +52,8 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(request.url)
 
   if (url.origin === location.origin) {
-    event.respondWith(cacheFirst(request));
+    // event.respondWith(cacheFirst(request));
+    event.respondWith(networkFirst(request));
   } else {
     event.respondWith(networkFirst(request));
   }
