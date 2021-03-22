@@ -11,6 +11,7 @@ window.addEventListener('load', async () => {
   calculator();
 });
 
+// MAIN FUNCTION
 function calculator(){
   const inputs = document.querySelectorAll('input');
   const priceInp = document.querySelector('#price');
@@ -21,7 +22,6 @@ function calculator(){
   const btnCleanAll = document.querySelector('#btn-clean-all');
   const validateErrors = document.querySelector('#validateErrors');
 
-  // MAIN FUNCTION
   function calculate() {
     let result;
     const isPriceValid = validateInputs(priceInp, validateErrors, "Enter a value in the field 'Price (grn.)'");
@@ -79,7 +79,7 @@ function calculator(){
       }
     })
   }
-
+  
   // BTN CLEAN — Handlers
   btnCleanPrice.addEventListener('click', () => {
     priceInp.value = null;

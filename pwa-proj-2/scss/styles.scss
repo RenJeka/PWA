@@ -1,7 +1,6 @@
 $headerHeight: 80px;
 $brakePointM: 700px;
-$brakePointS: 500px;
-$brakePointXS: 400px;
+$brakePointS: 350px;
 
 /* NORMALIZE  START*/
 * {
@@ -99,21 +98,36 @@ header h1 {
   background-color: #6faeae;
   font-family: Verdana;
 
-  @media screen and (max-width: $brakePointS) and (max-height: $brakePointM) {
+  @media screen and (max-height: $brakePointM) {
     height: auto;
+    min-height: calc(100% - 80px);
   }
 }
 
 .interface {
-  padding-top: 3rem;
-  margin: 0 20px;
+  max-width: 700px;
   height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+
+  label {
+    display: inline-block;
+    margin-left: 2rem;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    @media screen and (max-width: $brakePointS) {
+      display: block;
+      text-align: center;
+    }
+
+  }
 
   .input-block {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
+
 
     @media screen and (max-width: $brakePointS) {
       flex-direction: column;
@@ -131,13 +145,6 @@ header h1 {
       @media screen and (max-width: $brakePointM){
         width: 250px;
       }
-    }
-
-    label {
-      display: inline-block;
-      margin-left: 2rem;
-      margin-bottom: 10px;
-      font-size: 1.5rem;
     }
   }
 
@@ -185,7 +192,7 @@ header h1 {
     align-items: center;
     padding-left: 20px;
 
-    @media screen and (max-width: $brakePointXS){
+    @media screen and (max-width: $brakePointS){
       flex-direction: column;
     }
 
