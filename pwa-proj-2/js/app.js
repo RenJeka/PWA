@@ -1,4 +1,5 @@
 window.addEventListener('load', async () => {
+    activatePriceInput();
     // Check for supporting browser a ServiceWorker
     if ('serviceWorker' in navigator) {
         // If ServiceWorker is supported by browser — then register it (show message in error case)
@@ -22,10 +23,11 @@ function calculator(){
   const btnCleanAll = document.querySelector('#btn-clean-all');
   const validateErrors = document.querySelector('#validateErrors');
 
-  function calculate() {
+  function calculate(event) {
     let result;
     const isPriceValid = validateInputs(priceInp, validateErrors, "Enter a value in the field 'Price (grn.)'");
     const isWeightValid = validateInputs(weightInp, validateErrors, "Enter a value in the field 'Weight (g.)'");
+
     // IF all fields are valid
     if (isPriceValid && isWeightValid) {
       validateErrors.style.visibility = 'hidden';
@@ -79,7 +81,7 @@ function calculator(){
       }
     })
   }
-  
+
   // BTN CLEAN — Handlers
   btnCleanPrice.addEventListener('click', () => {
     priceInp.value = null;
@@ -107,10 +109,31 @@ function calculator(){
       input.type ==='password' ||
       input.type ==='search'
     ) {
+      input.addEventListener('beforeinput', (event) => {
+        if (event.data === '-' || event.data === '+') {
+          event.preventDefault();
+        }
+      });
       input.addEventListener('input', calculate);
     }
   })
+}
 
+function activatePriceInput() {
+  let priceInp = document.querySelector('#price');
+  let focusEvent = new Event('focus');
+  let clickEvent = new Event('click');
+  let touchEStartEvent = new Event('touchstart');
+  let touchEndEvent = new Event('touchend');
+
+  // Dispatch touch event
+  // priceInp.click();
+  // priceInp.focus();
+  priceInp.dispatchEvent(clickEvent);
+  // priceInp.dispatchEvent(focusEvent);
+  // priceInp.dispatchEvent(touchEStartEvent);
+  // priceInp.dispatchEvent(touchEndEvent);
+  // alert('focusEvent → clickEvent → touchEStartEvent → touchEndEvent')
 }
 
 

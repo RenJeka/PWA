@@ -78,7 +78,7 @@ body {
 }
 
 header h1 {
-  height: 80px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,14 +89,14 @@ header h1 {
 }
 
 .container {
-  height: calc(100% - 80px);
+  height: calc(100% - 50px);
   background-color: #6faeae;
   font-family: Verdana;
 }
 @media screen and (max-height: 700px) {
   .container {
     height: auto;
-    min-height: calc(100% - 80px);
+    min-height: calc(100% - 50px);
   }
 }
 
@@ -105,6 +105,11 @@ header h1 {
   height: 100%;
   margin: 0 auto;
   padding: 20px;
+}
+@media screen and (max-height: 700px) {
+  .interface {
+    padding: 3px 20px;
+  }
 }
 .interface label {
   display: inline-block;
@@ -115,35 +120,41 @@ header h1 {
 @media screen and (max-width: 350px) {
   .interface label {
     display: block;
-    text-align: center;
   }
 }
 .interface .input-block {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-height: 700px) {
   .interface .input-block {
-    flex-direction: column;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
   }
 }
 .interface .input-block input {
   display: inline-block;
   width: 350px;
-  height: 70px;
+  height: 50px;
   padding-left: 0.5em;
   font-size: 3rem;
   border-radius: 20px;
 }
+@media screen and (max-height: 700px) {
+  .interface .input-block input {
+    height: 35px;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
 @media screen and (max-width: 700px) {
   .interface .input-block input {
-    width: 250px;
+    width: 200px;
   }
 }
 .interface .btn-clean {
+  position: relative;
   width: 50px;
   height: 50px;
   margin-left: 15px;
@@ -157,8 +168,12 @@ header h1 {
   .interface .btn-clean {
     width: 75px;
     height: 75px;
-    margin-top: 15px;
     border-radius: 50px;
+  }
+}
+@media screen and (max-height: 700px) {
+  .interface .btn-clean {
+    height: 35px;
   }
 }
 .interface .btn-clean_all {
@@ -172,7 +187,14 @@ header h1 {
     padding: 20px 15px;
   }
 }
+@media screen and (max-width: 450px) {
+  .interface .btn-clean_all {
+    margin-top: 10px;
+    padding: 5px;
+  }
+}
 .interface #validateErrors {
+  display: none;
   height: 50px;
   margin: 15px 0;
   font-size: 1.5em;
@@ -184,7 +206,11 @@ header h1 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-left: 20px;
+}
+@media screen and (max-width: 450px) {
+  .interface .output-block {
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 350px) {
   .interface .output-block {
@@ -196,7 +222,6 @@ header h1 {
   flex-direction: column;
 }
 .interface .output-block .result-block .result {
-  text-align: center;
   font-family: Arial, serif;
   font-size: 3.5rem;
   transform: scale(0.8, 1);

@@ -18,16 +18,17 @@
 
       <label for="price">Price (grn.)</label>
       <div class="input-block">
-        <input type="number" id="price">
-        <button class="btn-clean" id="btn-clean-price">X</button>
+        <input type="number" id="price" min="0">
+        <button class="btn-clean" id="btn-clean-price">☓</button>
       </div>
 
       <label for="weight">Weight (g.)</label>
       <div class="input-block">
-        <input type="number" id="weight">
-        <button class="btn-clean" id="btn-clean-weight">X</button>
+        <input type="number" id="weight" min="0">
+        <button class="btn-clean" id="btn-clean-weight">☓</button>
       </div>
 
+      <!--  VALIDATION (Not displayed!)  -->
       <p id="validateErrors"></p>
 
       <div class="output-block">
