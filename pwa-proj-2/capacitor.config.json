@@ -1,0 +1,6 @@
+{
+  "appId": "com.pwa.pricecalc",
+  "appName": "price-calculator",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

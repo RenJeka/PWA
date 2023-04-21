@@ -6,14 +6,17 @@
   "scripts": {
     "start": "npx live-server . --port=3001",
     "serve": "npx live-server . --port=3001",
-    "sass": "sass --watch scss/styles.scss css/styles.css"
+    "sass": "sass --watch scss/styles.scss css/styles.css",
+    "cap-android": "npx cap add android"
   },
   "dependencies": {
-
+    "@capacitor/android": "4.7.3",
+    "@capacitor/core": "4.7.3"
   },
   "devDependencies": {
     "live-server": "1.2.2",
-    "sass": "1.62.0"
+    "sass": "1.62.0",
+    "@capacitor/cli": "4.7.3"
   },
   "repository": {
     "type": "git",
