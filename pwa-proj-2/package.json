@@ -1,12 +1,19 @@
 {
   "name": "pwa",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "pwa projects",
   "main": "index.html",
   "scripts": {
     "start": "npx live-server . --port=3001",
     "serve": "npx live-server . --port=3001",
     "sass": "sass --watch scss/styles.scss css/styles.css"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "live-server": "1.2.2",
+    "sass": "1.62.0"
   },
   "repository": {
     "type": "git",
