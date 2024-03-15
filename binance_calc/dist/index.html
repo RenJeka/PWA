@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#808080">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RJ_pwa_calc-1</title>
+  <link rel="stylesheet" href="css/pico.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="shortcut icon" href="icons/favicon-16x16.png" type="image/png">
+</head>
+<body>
+  <header>
+    <h1>Price calculator v2</h1>
+  </header>
+  <div class="container">
+    <div class="interface">
+
+      <label for="price">Price (grn.)</label>
+      <div class="input-block">
+        <input type="number" id="price" min="0">
+        <button class="btn-clean" id="btn-clean-price">☓</button>
+      </div>
+
+      <label for="weight">Weight (g.)</label>
+      <div class="input-block">
+        <input type="number" id="weight" min="0">
+        <button class="btn-clean" id="btn-clean-weight">☓</button>
+      </div>
+
+      <!--  VALIDATION (Not displayed!)  -->
+      <p id="validateErrors"></p>
+
+      <div class="output-block">
+        <div class="result-block" >
+          <span class="result" id="result">Result</span>
+          <span class="result-dimension">(grn/Kg)</span>
+        </div>
+        <button class="btn-clean btn-clean_all" id="btn-clean-all">clean All</button>
+      </div>
+
+    </div>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>

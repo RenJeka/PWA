@@ -1,0 +1,164 @@
+$headerHeight: 50px;
+$brakePointM: 700px;
+$brakePointS: 450px;
+$brakePointXS: 350px;
+$brakePointHeight: 700px;
+
+/* NORMALIZE  END*/
+
+body {
+  height: 100%;
+}
+
+header h1 {
+  height: $headerHeight;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.container {
+  height: calc(100% - #{$headerHeight});
+
+  @media screen and (max-height: $brakePointM) {
+    height: auto;
+    min-height: calc(100% - #{$headerHeight});
+  }
+}
+
+.interface {
+  max-width: 700px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+
+  @media screen and (max-height: $brakePointHeight) {
+    padding: 3px 20px;
+  }
+
+  label {
+    display: inline-block;
+    margin-left: 2rem;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    @media screen and (max-width: $brakePointXS) {
+      display: block;
+    }
+
+  }
+
+  .input-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
+    @media screen and (max-height: $brakePointHeight) {
+      margin-bottom: 10px;
+    }
+
+    input {
+      display: inline-block;
+      width: 350px;
+      height: 50px;
+      padding-left: 0.5em;
+      font-size: 3rem;
+      border-radius: 20px;
+
+      @media screen and (max-height: $brakePointHeight) {
+        height: 35px;
+        font-size: 2rem;
+        font-weight: bold;
+      }
+
+      @media screen and (max-width: $brakePointM){
+        width: 200px;
+      }
+    }
+  }
+
+  // Buttons for clean inputs and outputs
+  .btn-clean {
+    position: relative;
+    width: 50px;
+    height: 80px;
+    padding: 10px;
+    margin-left: 15px;
+    border: 2px solid;
+    border-radius: 30px;
+    font-size: 2rem;
+
+    @media screen and (max-width: $brakePointXS) {
+      width: 75px;
+      height: 75px;
+      border-radius: 50px;
+    }
+
+    @media screen and (max-height: $brakePointHeight) {
+      height: 35px;
+    }
+
+    &_all {
+      width: auto;
+      height: auto;
+      padding: 10px;
+      font-size: 1.5rem;
+
+      @media screen and (max-width: $brakePointXS) {
+        padding: 20px 15px;
+      }
+
+      @media screen and (max-width: $brakePointS) {
+        margin-top: 10px;
+        padding: 15px;
+      }
+    }
+  }
+
+  #validateErrors {
+    display: none;
+    height: 50px;
+    margin: 15px 0;
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(250 225 100);
+  }
+
+  .output-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: $brakePointS) {
+      flex-direction: column;
+    }
+
+    @media screen and (max-width: $brakePointXS){
+      flex-direction: column;
+    }
+
+    .result-block {
+      display: flex;
+      flex-direction: column;
+      .result {
+        //font-family: Arial, serif;
+        font-size: 3.5rem;
+        transform: scale(0.8, 1);
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+
+      .result-dimension {
+        text-transform: none;
+        font-size: 1.5rem;
+        margin-top: 10px;
+        align-self: flex-end;
+      }
+    }
+  }
+
+}
+
