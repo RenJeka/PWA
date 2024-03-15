@@ -1,3 +1,7 @@
+// TODO: change svg icon -- to SVG image (background or regular image)
+// TODO: put lable into inputsConfig
+// TODO: зробити так, щоб зміни можна було внести тільки у конфігураційний об'єкт inputsConfig
+
 window.addEventListener('load', async () => {
     activateprice1Input();
     // Check for supporting browser a ServiceWorker
