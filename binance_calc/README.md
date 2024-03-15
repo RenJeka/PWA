@@ -1,6 +1,6 @@
-### price-calculator
+### binance-calculator
 
-###### Application  for calculate price. You put price for kg (lb) and weight of product — and application calculate price specifically for this product.
+###### Application  for calculate price for binance. 
 
 #### Build for Android
 
